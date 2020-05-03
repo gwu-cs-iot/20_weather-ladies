@@ -21,7 +21,7 @@ try:
             #get city, state, country code data from user
             print("Please enter a city name: ")
             city = raw_input()
-            print("Please input the corresponding state: ")
+            print("Please input the corresponding state - only if city is in the US: ")
             state = raw_input()
             print("Please input the corresponding country code: ")
             country = raw_input()
